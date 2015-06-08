@@ -14,7 +14,10 @@
 	display: inline-flex;
 	list-style-type: none;
 }
-.en-cours {
+.inactif {
+	color: rgba(25, 25, 25, 0.5);
+}
+.actif {
 	font-weight: bold;
 }
 .logo {
@@ -54,8 +57,7 @@ h3 {
 	font-size: 20px;
 }
 a:hover{
-	font-weight: bold;
-	text-decoration: none;
+	color: black;
 }
 a {
 	color: black;
@@ -116,8 +118,18 @@ input[type="submit"] {
 /* footer */
 #footer {
 	border-top: 2px solid black;
-	width: 960px;
+	width: 940px;
+}
+.left {
+	text-align: left;
+	width: 470px;
+	float: left;
+	margin-top: 15px;
+}
+.right {
 	text-align: right;
+	width: 470px;
+	float: right;
 }
 
 
