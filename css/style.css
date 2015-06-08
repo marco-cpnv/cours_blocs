@@ -1,3 +1,4 @@
+/* header */
 #header{
 	height: 150px;
 }
@@ -9,24 +10,35 @@
     float:left;
 	line-height:65px;
 }
-#container{
-	float: center;
-    margin-bottom: 30px;
+.nav{
+	display: inline-flex;
+	list-style-type: none;
 }
-body {
+.en-cours {
+	font-weight: bold;
+}
+.logo {
+	font-size: 25px;
+}
+/* Contenu */
+html {
     width:960px;
     margin-left:auto;
     margin-right:auto;
 	font-family: "Slabo", sans-serif;
 	background-color: #D8D8D8;
 }
-span {
-	font-size: 25px;
+#container{
+	float: center;
+    margin-bottom: 30px;
 }
-.nav{
-	display: inline-flex;
-	list-style-type: none;
+body {
+    margin-left:10px;
+    margin-right:10px;
+	font-family: "Slabo", sans-serif;
+	background-color: #D8D8D8;
 }
+
 li {
 	padding-right: 10px;
 }
@@ -41,11 +53,6 @@ h2 {
 h3 {
 	font-size: 20px;
 }
-#footer {
-	border-top: 2px solid black;
-	width: 960px;
-	text-align: right;
-}
 a:hover{
 	font-weight: bold;
 	text-decoration: none;
@@ -57,6 +64,60 @@ a {
 .texte-portfolio{
 margin-bottom:50px;
 }
-.en-cours {
+/* formulaire */
+form {
+    margin-left: 160px;
+    width: 540px;
+    margin-right: 240px;
+	height: 370px;
+}
+label {
+	width: 140px;
 	font-weight: bold;
 }
+input.text, textarea, input.submit {
+	width: 380px;
+	float: right;
+	margin-top: 17px;
+	font-size: 30px;
+	border: 1px solid white;
+}
+textarea {
+	height: 180px;
+	font-size: 20px;
+	font-family: "Slabo",sans-serif;
+}
+label.label{
+	float: left;
+    text-align: right;
+	margin-top: 30px;
+	font-size: 22px;
+}
+input.text{
+	height: 40px;
+}
+label.Madame {
+	margin-left: 160px;
+}
+label.Monsieur {
+	margin-left: 35px;
+}
+input[type="submit"] {
+	font-size: 16pt;
+	font-weight: bold;
+	border: none;
+	background-color: transparent; 
+	padding: 0;
+	font-style: italic;
+	text-decoration: underline;
+	color: black;
+	text-align: right;
+}
+/* footer */
+#footer {
+	border-top: 2px solid black;
+	width: 960px;
+	text-align: right;
+}
+
+
