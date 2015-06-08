@@ -11,13 +11,14 @@
 }
 #container{
 	float: center;
+    margin-bottom: 30px;
 }
 body {
     width:960px;
     margin-left:auto;
     margin-right:auto;
 	font-family: "Slabo", sans-serif;
-	background-color: #f0f0f0;
+	background-color: #D8D8D8;
 }
 span {
 	font-size: 25px;
@@ -56,4 +57,7 @@ a {
 
 .texte-portfolio{
 margin-bottom: 75px;
+}
+.en-cours {
+	font-weight: bold;
 }

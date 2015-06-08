@@ -11,14 +11,14 @@
 }
 #container{
 	float: center;
-	height: 2185px;
+    margin-bottom: 30px;
 }
 body {
     width:960px;
     margin-left:auto;
     margin-right:auto;
 	font-family: "Slabo", sans-serif;
-	background-color: #f0f0f0;
+	background-color: #D8D8D8;
 }
 span {
 	font-size: 25px;
@@ -33,7 +33,7 @@ li {
 h1, h2, h3 {
 	text-decoration: underline;
 	font-size: 50px;
-	font-style: bold;
+	font-weight: bold;
 }
 h2 {
 	font-size: 35px;
@@ -58,8 +58,54 @@ a {
 .texte-portfolio{
 margin-bottom: 75px;
 }
-.form {
-	width: 300px;
-	margin-left: auto; 
-	margin-right: auto;
+.en-cours {
+	font-weight: bold;
+}
+form {
+    margin-left: 160px;
+    width: 540px;
+    margin-right: 240px;
+	height: 370px;
+}
+label {
+	width: 140px;
+	font-weight: bold;
+}
+input.text, textarea, input.submit {
+	width: 380px;
+	float: right;
+	margin-top: 17px;
+	font-size: 30px;
+	border: 1px solid white;
+}
+textarea {
+	height: 180px;
+	font-size: 20px;
+	font-family: "Slabo",sans-serif;
+}
+label.label{
+	float: left;
+    text-align: right;
+	margin-top: 30px;
+	font-size: 22px;
+}
+input.text{
+	height: 40px;
+}
+label.Madame {
+	margin-left: 160px;
+}
+label.Monsieur {
+	margin-left: 35px;
+}
+input[type="submit"] {
+	font-size: 16pt;
+	font-weight: bold;
+	border: none;
+	background-color: transparent; 
+	padding: 0;
+	font-style: italic;
+	text-decoration: underline;
+	color: black;
+	text-align: right;
 }
