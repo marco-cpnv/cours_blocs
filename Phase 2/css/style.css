@@ -65,6 +65,29 @@ a {
 .texte-portfolio{
 	margin-bottom:50px; /* définit une marge de fond */
 }
+.imageaccueil {
+	float: left;
+}
+/* Box */
+#box1 {
+	margin-top: 80px;
+	width: 780px;
+	height: 500px;
+	position: relative;
+}
+
+#box2 {
+	width: 260px;
+	height: 230px;
+	position: absolute;
+	top: 166px;
+	left: 640px;
+	background-color: white;
+	padding: 20px;
+	font-size:15px;
+	font-weight: bold;
+	font-style: italic;
+}
 /* formulaire */
 form {
     margin-left: 160px; /* définit la marge de gauche du formulaire */
@@ -118,6 +141,8 @@ input[type="submit"] { /* style le bouton "envoyer" */
 /* footer */
 #footer {
 	border-top: 2px solid black; /* bordure du haut */
+	bottom: 0;
+	position: relative;
 }
 .hautdepage:hover{
 	text-decoration: underline; /* enlève le soulignement */
