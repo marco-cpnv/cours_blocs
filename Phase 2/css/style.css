@@ -1,11 +1,9 @@
-/* html */
 html {
     width:960px; /* définit la largeur du site web */
     margin-left:auto; /* centre le site */
     margin-right:auto; /* centre le site */
 	font-family: "Slabo", sans-serif; /* définit la police du site web */
 }
-/* header */
 header{
 	height: 150px; /* définit la hauteur de la tête du site */
 }
@@ -30,7 +28,6 @@ nav {
 .logo {
 	font-size: 25px; /* définit la taille de police du logo */
 }
-/* Contenu */
 main{
 	float: center; /* centre le contenu */
     margin-bottom: 30px; /* définit une marge de fond de 30px */
@@ -176,7 +173,6 @@ input[type="submit"] { /* style le bouton "envoyer" */
 	color: black;
 	text-align: right;
 }
-/* footer */
 footer {
 	border-top: 2px solid black; /* bordure du haut */
 	bottom: 0;
