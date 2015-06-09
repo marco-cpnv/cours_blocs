@@ -6,10 +6,10 @@ html {
 	font-family: "Slabo", sans-serif; /* définit la police du site web */
 }
 /* header */
-#header{
+header{
 	height: 150px; /* définit la hauteur de la tête du site */
 }
-.nav-top {
+nav {
     float:right; /* fait flotter l'élément sur la droite */
 	line-height:70px; /* définit la hauteur de la ligne */
 } 
@@ -31,7 +31,7 @@ html {
 	font-size: 25px; /* définit la taille de police du logo */
 }
 /* Contenu */
-#container{
+main{
 	float: center; /* centre le contenu */
     margin-bottom: 30px; /* définit une marge de fond de 30px */
 }
@@ -177,7 +177,7 @@ input[type="submit"] { /* style le bouton "envoyer" */
 	text-align: right;
 }
 /* footer */
-#footer {
+footer {
 	border-top: 2px solid black; /* bordure du haut */
 	bottom: 0;
 	position: relative;
