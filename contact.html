@@ -1,58 +1,65 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <title>Portfolio M &amp; J | contact</title>
-    <link href="css/style.css" rel="stylesheet">
-  </head>
-  <body>
-	<div id="header">
-		<div class="nav-titre">
-			<p><a class="logo" href="index.html">M &amp; J</a></p>
+	<head>
+		<meta charset="utf-8">
+		<title>Portfolio M &amp; J | contact</title>
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+  	<!-- header -->
+		<div id="header">
+			<div class="nav-titre">
+				<!-- Logo du site -->
+				<p><a class="logo" href="index.html">M &amp; J</a></p>
+			</div>
+			<!-- navigation principale construite en liste -->
+			<div class="nav-top">
+			  <ul class="nav">
+				  <li><a href="index.html" class="inactif">présentation</a></li>
+				  <li><a href="portfolio.html" class="inactif">portfolio</a></li>
+				  <li><a href="contact.html" class="actif">contact</a></li>
+			  </ul>
+			</div>
 		</div>
-		<div class="nav-top">
-		  <ul class="nav">
-			  <li><a href="index.html" class="inactif">présentation</a></li>
-			  <li><a href="portfolio.html" class="inactif">portfolio</a></li>
-			  <li><a href="contact.html" class="actif">contact</a></li>
-		  </ul>
+	<!-- container -->
+		<div id="container">
+			<h2>Contactez-nous !</h2>
+			<div class="formulaire">
+				<form method="post" action="unscript.php">
+					<div>
+						<label class="Madame">Madame</label>
+						<input type="radio" name="titre">
+						<label class="Monsieur">Monsieur</label>
+						<input type="radio" name="titre">
+					</div>
+					<div>
+						<label class="label">Nom</label>
+						<input class="text" type="text" name="nom"> 
+					</div>
+					<div>
+						<label class="label">Prénom</label>
+						<input class="text" type="text" name="prenom">
+					</div>
+					<div>
+						<label class="label">Message</label>
+						<textarea cols="20" rows="5" wrap="soft" name="message"></textarea>
+					</div>	
+					<div>
+						<input class="submit" type="submit" name="submit" value="Envoyer">
+					</div>				
+				</form>
+			</div>
 		</div>
-	</div>
-	<div id="container">
-		<h2>Contactez-nous !</h2>
-		<div class="formulaire">
-			<form method="post" action="unscript.php">
-				<div>
-					<label class="Madame">Madame</label>
-					<input type="radio" name="titre">
-					<label class="Monsieur">Monsieur</label>
-					<input type="radio" name="titre">
-				</div>
-				<div>
-					<label class="label">Nom</label>
-					<input class="text" type="text" name="nom"> 
-				</div>
-				<div>
-					<label class="label">Prénom</label>
-					<input class="text" type="text" name="prenom">
-				</div>
-				<div>
-					<label class="label">Message</label>
-					<textarea cols="20" rows="5" wrap="soft" name="message"></textarea>
-				</div>	
-				<div>
-					<input class="submit" type="submit" name="submit" value="Envoyer">
-				</div>				
-			</form>
+	<!-- footer -->
+		<div id="footer">
+			<div class="left">
+				<a href="index.html" class="inactif">présentation</a>
+				<a href="portfolio.html" class="inactif">portfolio</a>
+				<a href="contact.html" class="actif">contact</a>
+			</div>
+			<div class="right">
+				<p>&copy;Copyright 2015 - Lauria Marco & Quiot Julien
+			</div>
 		</div>
-	</div>
-	<div id="footer">
-		<div class="left">
-			<a href="#">haut de page</a>
-		</div>
-		<div class="right">
-			<p>&copy;Copyright 2015 - Lauria Marco & Quiot Julien
-		</div>
-	</div>
     </body>
 </html>
