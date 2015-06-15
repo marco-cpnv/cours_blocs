@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" content="HTML,CSS">
+		<title>Portfolio M &amp; J | contact</title>
+		<link href="css/style.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="nav-titre">
+				<p><a class="logo" href="index.html">M &amp; J</a></p>
+			</div>
+			<nav>
+				<ul class="nav">
+				  <li><a href="index.html" class="inactif">présentation</a></li>
+				  <li><a href="portfolio.html" class="inactif">portfolio</a></li>
+				  <li><a href="contact.html" class="actif">contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h2>Contactez-nous !</h2>
+			<div class="formulaire">
+				<form method="post" action="unscript.php">
+					<div>
+						<label class="Madame">Madame</label>
+						<input type="radio" name="titre">
+						<label class="Monsieur">Monsieur</label>
+						<input type="radio" name="titre">
+					</div>
+					<div>
+						<label class="label">Nom</label>
+						<input class="text" type="text" name="nom"> 
+					</div>
+					<div>
+						<label class="label">Prénom</label>
+						<input class="text" type="text" name="prenom">
+					</div>
+					<div>
+						<label class="label">Message</label>
+						<textarea cols="20" rows="5" name="message"></textarea>
+					</div>	
+					<div>
+						<input class="submit" type="submit" name="submit" value="Envoyer">
+					</div>				
+				</form>
+			</div>
+		</main>
+		<footer>
+			<div class="left">
+				<a href="index.html" class="inactif">présentation</a>
+				<a href="portfolio.html" class="inactif">portfolio</a>
+				<a href="contact.html" class="actif">contact</a>
+			</div>
+			<div class="right">
+				<p>&copy; Lauria Marco & Quiot Julien - Crédits photos: <a href="http://www.unsplash.com" target="_blank">unsplash.com</a></p>
+			</div>
+		</footer>
+    </body>
+</html>

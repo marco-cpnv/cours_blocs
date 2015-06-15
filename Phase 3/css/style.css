@@ -1,0 +1,197 @@
+html {
+    width:57.75%; /* définit la largeur du site web */
+    margin-left:auto; /* centre le site */
+    margin-right:auto; /* centre le site */
+	font-family: "Slabo", sans-serif; /* définit la police du site web */
+}
+header{
+	height: 150px; /* définit la hauteur de la tête du site */
+}
+nav {
+    float:right; /* fait flotter l'élément sur la droite */
+	line-height:70px; /* définit la hauteur de la ligne */
+} 
+.nav-titre {
+    float:left; /* fait flotter l'élément sur la gauche */
+	line-height:65px; /* déginit la hauteur de la ligne */
+}
+.nav{
+	display: inline-flex; /* "casse" la vue liste */
+	list-style-type: none; /* désactive les puces */
+}
+.inactif {
+	color: rgba(25, 25, 25, 0.5); /* définit la couleur de la navigation inactive */
+}
+.actif {
+	font-weight: bold; /* met le texte en gras si la navigation est active */
+}
+.logo {
+	font-size: 1.5625em; /* définit la taille de police du logo */
+}
+.image {
+	width: 81.25%;
+}
+main{
+	float: center; /* centre le contenu */
+    margin-bottom: 30px; /* définit une marge de fond de 30px */
+}
+body {
+    margin-left:10px; /* marge de gauche de 10px */
+    margin-right:10px; /* marge de droite de 10px */
+	background-color: #D8D8D8; /* définit la couleur de fond du site internet */
+}
+
+li {
+	padding-right: 10px; /* espace la navigation principale */
+}
+h1, h2, h3 {
+	text-decoration: underline; /* souligne les titres */
+	font-size: 3.125em; /* définit la taille de police du titre */
+	font-style: bold; /* met le texte en gras */
+}
+h2 {
+	font-size: 2.1875em; /* définit la taille de police du h2 */
+}
+h3 {
+	font-size: 1.25em; /* définit la taille de police du h3 */
+	margin-top: 0px;
+}
+#container > h2 {
+	margin-bottom: 70px;
+}
+a:hover{
+	color: black; /* définit la couleur des liens au survol de la souris */
+}
+a {
+	color: black; /* définit la couleur du lien */
+	text-decoration: none; /* enlève le soulignement */
+}
+.texte-portfolio{
+	margin-bottom:50px; /* définit une marge de fond */
+}
+.imageaccueil {
+	float: left;
+}
+/* Box */
+#box1 {
+	margin-top: 80px;
+	max-width: 100%;
+	height: 500px;
+	position: relative;
+}
+
+#box2 {
+	width: 260px;
+	height: 230px;
+	position: absolute;
+	top: 166px;
+	left: 640px;
+	background-color: white;
+	padding: 20px;
+	font-size:0.9375em;
+	font-weight: bold;
+	font-style: italic;
+}
+#box3, #box4 {
+  width: 620px;
+  height: 400px;
+  float: left;
+}
+#box4 {
+  float: right;
+}
+#portfolio1 {
+	margin-bottom: 46px;
+    text-align: left;
+	width: 940px;
+	height: 400px;
+}
+#text1 {
+	float: right;
+	width: 300px;
+	height: 400px;
+	margin-left: 20px;
+	font-size: 0.9375em;
+}
+#portfolio2 {
+	margin-bottom: 46px;
+    text-align: right;
+	width: 940px;
+	height: 400px;
+}
+#text2 {
+	float: left;
+	width: 300px;
+	height: 400px;
+	margin-right: 20px;
+	font-size: 0.9375em;
+}
+/* formulaire */
+form {
+    margin-left: 160px; /* définit la marge de gauche du formulaire */
+    width: 540px; /* définit la largeur du formulaire */
+    margin-right: 240px; /* définit la marge de droite du formulaire */
+	height: 370px; /* définit la hauteur du formulaire */
+}
+label {
+	width: 140px; /* définit la largeur du label */
+	font-weight: bold; /* définit le texte en gras */
+}
+input.text, textarea, input.submit {
+	width: 380px; /* définit la largeur des champs de texte */
+	float: right; /* fait flotter l'élément à droite */
+	margin-top: 17px; /* définit une marge du haut */
+	font-size: 1.875em; /* définit la taille de la police à l'intérieur du champs */
+	border: 1px solid white; /* définit une bordure */
+}
+textarea {
+	height: 180px; /* définit la hauteur du champs textarea */
+	font-size: 1.25em; /* définit la taille de la police à l'intérieur du champs */
+	font-family: "Slabo",sans-serif; /* définit une police */
+	resize: none; /* empêche le changement de taille du block */
+}
+label.label{
+	float: left; /* fait flotter l'élément sur la gauche */
+    text-align: right; /* alligne le texte à droite */
+	margin-top: 30px; /* définit une marge du haut */
+	font-size: 1.375em; /* définit la taille de la police */
+}
+input.text{
+	height: 40px; /* définit la hauteur des champs de texte */
+}
+label.Madame {
+	margin-left: 160px; /* définit une marge de gauche */
+}
+label.Monsieur {
+	margin-left: 35px; /* définit une marge de gauche */
+}
+input[type="submit"] { /* style le bouton "envoyer" */
+	font-size: 1em; 
+	font-weight: bold;
+	border: none;
+	background-color: transparent; 
+	padding: 0;
+	font-style: italic;
+	text-decoration: underline;
+	color: black;
+	text-align: right;
+}
+footer {
+	border-top: 2px solid black; /* bordure du haut */
+	bottom: 0;
+	position: relative;
+}
+.hautdepage:hover{
+	text-decoration: underline; /* enlève le soulignement */
+}
+.left {
+	text-align: left; /* aligne le texte à gauche */
+	width: 470px; /* définit la largeur des éléments de gauche */
+	float: left;  /* fait flotter l'élément à gauche */
+	margin-top: 15px; /* définit une marge du haut */
+}
+.right {
+	text-align: right; /* aligne le texte à gauche */
+	width: 470px; /* définit la largeur des éléments de gauche */
+	float: right; /* fait flotter l'élément à droite */
+}
